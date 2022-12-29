@@ -4,7 +4,7 @@ services:
   env: node
   repo: https://github.com/rogeraabbccdd/Linebot-Deals.git
   buildCommand: cd funcs;npm install
-  startCommand: cd funcs;node index.js
+  startCommand: cd funcs;npm start
   plan: free
   autoDeploy: false
   envVars:
