@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: line-bot-nodejs-echo
+  name: linebot-deals
   env: node
   repo: https://github.com/rogeraabbccdd/Linebot-Deals.git
   buildCommand: cd funcs;npm install
