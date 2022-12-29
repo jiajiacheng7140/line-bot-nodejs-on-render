@@ -2,9 +2,9 @@ services:
 - type: web
   name: line-bot-nodejs-echo
   env: node
-  repo: https://github.com/line/line-bot-sdk-nodejs.git
-  buildCommand: cd examples/echo-bot;npm install
-  startCommand: cd examples/echo-bot;node .
+  repo: https://github.com/rogeraabbccdd/Linebot-Deals.git
+  buildCommand: cd funcs;npm install
+  startCommand: cd funcs;node .
   plan: free
   autoDeploy: false
   envVars:
